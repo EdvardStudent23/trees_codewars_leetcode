@@ -1,5 +1,14 @@
+'''
+Module for deleting a certain node
+'''
 class Solution:
+    '''
+    Solution class
+    '''
     def deleteNode(self, root: TreeNode, key: int) -> TreeNode:
+        '''
+        Function deletes a node
+        '''
         if not isinstance(root, TreeNode):
             return None
         
